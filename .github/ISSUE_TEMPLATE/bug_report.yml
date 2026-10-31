@@ -1,0 +1,47 @@
+name: Bug report
+description: Something doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the [support page](https://starmaze-studios.github.io/support/) first, as most problems have a quick fix there.
+
+        Issues are public, so please leave out your name, email and other personal details.
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options:
+        - Windows
+        - Mac
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Stream Deck app → Preferences → Plugins.
+      placeholder: 1.0.0.0
+    validations:
+      required: true
+  - type: input
+    id: deck-model
+    attributes:
+      label: Stream Deck model
+      placeholder: Stream Deck MK.2
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you pressed, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      placeholder: |
+        1. Open Apple Music
+        2. Press...
+        3. See...
