@@ -8,7 +8,7 @@
 
 ![Crystal & Frosted Glass on a Stream Deck](screenshots/thumbnail.png)
 
-**Coming soon to the Elgato Marketplace.** The Marketplace is the only official place to get the plugin. This page is for news, screenshots, bug reports and ideas. The source code isn't public.
+**[Get it on the Elgato Marketplace](https://marketplace.elgato.com/product/crystal-frosted-glass-for-apple-music-e5898585-5a12-42ae-9c50-30aa06dc0aa0).** The Marketplace is the only official place to get the plugin. This page is for news, screenshots, bug reports and ideas. The source code isn't public.
 
 ## See what's playing
 
